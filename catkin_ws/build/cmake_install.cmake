@@ -117,6 +117,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/pi/MobileRobot/catkin_ws/build/gtest/cmake_install.cmake")
+  include("/home/pi/MobileRobot/catkin_ws/build/robot_control/cmake_install.cmake")
 
 endif()
 

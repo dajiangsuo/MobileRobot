@@ -19,3 +19,16 @@
 /home/pi/MobileRobot/catkin_ws/build/gtest/CMakeFiles/install/local.dir
 /home/pi/MobileRobot/catkin_ws/build/gtest/CMakeFiles/gtest_main.dir
 /home/pi/MobileRobot/catkin_ws/build/gtest/CMakeFiles/gtest.dir
+/home/pi/MobileRobot/catkin_ws/build/robot_control/CMakeFiles/test.dir
+/home/pi/MobileRobot/catkin_ws/build/robot_control/CMakeFiles/geometry_msgs_generate_messages_cpp.dir
+/home/pi/MobileRobot/catkin_ws/build/robot_control/CMakeFiles/edit_cache.dir
+/home/pi/MobileRobot/catkin_ws/build/robot_control/CMakeFiles/geometry_msgs_generate_messages_py.dir
+/home/pi/MobileRobot/catkin_ws/build/robot_control/CMakeFiles/list_install_components.dir
+/home/pi/MobileRobot/catkin_ws/build/robot_control/CMakeFiles/std_msgs_generate_messages_cpp.dir
+/home/pi/MobileRobot/catkin_ws/build/robot_control/CMakeFiles/rebuild_cache.dir
+/home/pi/MobileRobot/catkin_ws/build/robot_control/CMakeFiles/geometry_msgs_generate_messages_lisp.dir
+/home/pi/MobileRobot/catkin_ws/build/robot_control/CMakeFiles/std_msgs_generate_messages_py.dir
+/home/pi/MobileRobot/catkin_ws/build/robot_control/CMakeFiles/install/local.dir
+/home/pi/MobileRobot/catkin_ws/build/robot_control/CMakeFiles/install/strip.dir
+/home/pi/MobileRobot/catkin_ws/build/robot_control/CMakeFiles/std_msgs_generate_messages_lisp.dir
+/home/pi/MobileRobot/catkin_ws/build/robot_control/CMakeFiles/install.dir
