@@ -13,18 +13,24 @@ import navio.pwm
 import navio.util
 import datetime
 
+PWM_OUT = 1
+Motor_Reverse = 1.60
+Motor_Brake = 1.750
+Motor_Drag = 1.2
+Motor_Max = 2.0
+Motor_Min = 1.0
+Motor_Neutral = 1.5
+pwm = navio.pwm.PWM(PWM_OUT)
+Motor_currentSpeed = 0
+
+def motor_speed_loop():
+    if Motor_currentSpeed == 0:
+	Motor_curentSpeed = Motor_Neutral
+    while (True):
+	pwm.set_duty_cycle(Motor_currentSpeed)
 
 
 class velocitySubscriber:
-    PWM_OUT = 1
-    Motor_Reverse = 1.60
-    Motor_Brake = 1.750
-    Motor_Drag = 1.2
-    Motor_Max = 2.0
-    Motor_Min = 1.0
-    Motor_Neutral = 1.5
-    pwm = navio.pwm.PWM(PWM_OUT)
-    Motor_currentSpeed = 0
 
     def __init__(self):
 	# Initialize the motor
@@ -65,12 +71,11 @@ class velocitySubscriber:
 if __name__=='__main__':
 
     rospy.init_node("velocity_subscriber_node")
-    node = velocitySubscriber()
 
-    motorSpeed_thread = threading.Thread(target = node.motor_speed_loop)
+    motorSpeed_thread = threading.Thread(target = motor_speed_loop)
     motorSpeed_thread.start()
 
-    #node = velocitySubscriber()
+    node = velocitySubscriber()
 
     rospy.spin()
 	
